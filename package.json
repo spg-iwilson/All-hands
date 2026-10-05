@@ -1,7 +1,7 @@
 {
-  "name": "aihero",
+  "name": "All-hands",
   "version": "1.0.0",
-  "description": "Unverified Duyfken sail-handling learning prototype",
+  "description": "Duyfken sail-handling learning prototype",
   "private": true,
   "type": "module",
   "scripts": {
