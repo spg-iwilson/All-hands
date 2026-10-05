@@ -77,15 +77,6 @@ export function createRigView(container, onSelect) {
       post.position.set(side * 6.1, 0.45, z);
       scene.add(post);
     }
-    for (let z = -2; z <= 2; z += 2) {
-      const stay = new THREE.Mesh(
-        new THREE.TubeGeometry(new THREE.LineCurve3(
-          new THREE.Vector3(0, 16, 0), new THREE.Vector3(side * 5.5, 0.4, z),
-        ), 1, 0.025, 4, false),
-        new THREE.MeshStandardMaterial({ color: 0x4b4940 }),
-      );
-      scene.add(stay);
-    }
   }
 
   function yard(width, y) {
